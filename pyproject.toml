@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ai-mandatory1"
+version = "0.1.0"
+description = ""
+authors = ["Morten Bendeke <mbendeke@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+scikit-learn = "^1.4.1.post1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
